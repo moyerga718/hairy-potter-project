@@ -2,10 +2,10 @@ let numOfItems = 1;
 
 export const makePottery = (shape, weight, height) => {
     const newPottery = {
-        id: numOfItems,
         shape: shape,
         weight: weight,
-        height: height
+        height: height,
+        id: numOfItems,
     }
     numOfItems ++
     return newPottery;
