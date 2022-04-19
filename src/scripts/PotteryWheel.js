@@ -1,6 +1,6 @@
 let numOfItems = 1;
 
-const makePottery = (shape, weight, height) => {
+export const makePottery = (shape, weight, height) => {
     const newPottery = {
         id: numOfItems,
         shape: shape,
@@ -11,4 +11,3 @@ const makePottery = (shape, weight, height) => {
     return newPottery;
 }
 
-module.exports = {makePottery}
