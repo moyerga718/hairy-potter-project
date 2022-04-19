@@ -1,11 +1,5 @@
 const uncrackedPottery = []
 
-const lilBabyObject = {
-    name: "dangus",
-    weight: 7,
-    cracked: false
-}
-
 const toSellOrNotToSell = (potteryObj) => {
     if (potteryObj.weight >= 6) {
         potteryObj.price = 40
@@ -21,8 +15,3 @@ const usePottery = () => {
     const uncrackedPotteryCopy = [...uncrackedPottery]
     return uncrackedPotteryCopy
 }
-
-toSellOrNotToSell(lilBabyObject)
-
-myPottery = usePottery()
-console.log(myPottery)
